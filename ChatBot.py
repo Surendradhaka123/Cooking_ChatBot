@@ -1,12 +1,9 @@
 import streamlit as st
-import cv2
 import time
-import numpy as np
 from llama_index import SimpleDirectoryReader, GPTListIndex, readers, GPTSimpleVectorIndex, LLMPredictor, PromptHelper, ServiceContext
 from langchain import OpenAI
 import sys
 import os
-from IPython.display import Markdown, display
 from datetime import datetime
 # from streamlit_chat import message as st_message
 
