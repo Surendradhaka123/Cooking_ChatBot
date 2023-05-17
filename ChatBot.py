@@ -36,10 +36,12 @@ if(check):
     if btn:
         def ask_question():
             count=0
+            count1=0
             while True:
                 query = st.text_area("Type your question..",key=count)
                 count= count+1
-                if st.button("Submit",key=count):
+                count1= count1-1
+                if st.button("Submit",key=count1):
                     if(query=="quit"):
                         break
                     else: 
