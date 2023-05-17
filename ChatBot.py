@@ -40,8 +40,7 @@ if(check):
             while True:
                 query = st.text_input("Type your question..",key=count)
                 count= count+1
-                
-                if (submit):
+
                 if(query=="quit"):
                     break
                 else:
