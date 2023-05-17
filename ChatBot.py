@@ -22,7 +22,7 @@ st.markdown(
 """
 )
 # Code 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 index = GPTSimpleVectorIndex.load_from_disk('index.json')
 
 
