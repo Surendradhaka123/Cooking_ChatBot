@@ -6,6 +6,7 @@ import sys
 import os
 from datetime import datetime
 # from streamlit_chat import message as st_message
+from key1 import KEY
 
 
 html_temp= """
@@ -22,7 +23,7 @@ st.markdown(
 """
 )
 # Code 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = KEY
 index = GPTSimpleVectorIndex.load_from_disk('index.json')
 
 
