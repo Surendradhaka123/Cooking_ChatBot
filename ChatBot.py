@@ -38,9 +38,10 @@ if(check):
             count=0
             count1=0
             while True:
+                submit=st.button("Submit")
                 query = st.text_input("Type your question..",key=count)
                 count= count+1
-                if (st.button("Submit")):
+                if (submit):
                     if(query=="quit"):
 
                         break
