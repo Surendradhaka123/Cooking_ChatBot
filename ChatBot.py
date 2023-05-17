@@ -38,15 +38,16 @@ if(check):
             count=0
             count1=0
             while True:
-                query = st.text_area("Type your question..",key=count)
+                query = st.text_input("Type your question..",key=count)
                 count= count+1
-                if(query=="quit"):
+                if (st.button("Submit")):
+                    if(query=="quit"):
 
-                    break
-                else:
-             
-                    response = index.query(query)
-                    st.markdown(f"Response: \t{response.response}\t")
+                        break
+                    else:
+
+                        response = index.query(query)
+                        st.markdown(f"Response: \t{response.response}\t")
                     
         ask_question()
         st.text("Thanks for using")
