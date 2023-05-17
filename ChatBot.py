@@ -36,7 +36,7 @@ if(check):
     if btn:
         def ask_question():
             count=0
-            count1=0
+            count1=-1
             while True:
                 count=count-1
                 submit=st.button("Submit",key=count1)
