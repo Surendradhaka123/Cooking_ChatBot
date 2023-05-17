@@ -39,7 +39,7 @@ if(check):
             while True:
                 query = st.text_area("Type your question..",key=count)
                 count= count+1
-                if(st.button("Submit")
+                if(st.button("Submit"):
                     if(query=="quit"):
                         break
                     else: 
