@@ -53,7 +53,7 @@ To run the Cooking Recipe Chat Bot, execute the main script as follows:
 ```bash
 python ChatBot.py
 ```
-Before running the ChatBot.py file get the OpenAI API by sign-up on the [OpenAI](https://openai.com/blog/chatgpt)
+Before running the ChatBot.py file get the OpenAI API by sign-up on the [OpenAI](https://openai.com/blog/chatgpt) and replace it with the `st.secrets["KEY"]` in the code.
 
 The chatbot will prompt you to enter your queries, and it will respond with relevant recipe suggestions and information.
 
@@ -79,5 +79,5 @@ For more details on the individual components and their integration, please refe
 
 ---
 
-Thank you for using the Cooking Recipe Chat Bot! If you have any questions or need assistance, please feel free to contact us at support@example.com. Happy cooking and chatting!
-Let's have fun with bot. https://surendradhaka123-cooking-chatbot-chatbot-ttwj5b.streamlit.app/
+Thank you for using the Cooking Recipe Chat Bot! If you have any questions or need assistance, please feel free to contact.
+Let's have fun with bot.
